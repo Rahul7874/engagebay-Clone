@@ -1,6 +1,5 @@
 import { Box,Input,Button,InputGroup,InputRightElement,Image,SimpleGrid } from "@chakra-ui/react"
-
-
+import "./Homepage.css"
 
 function Homepage(){
     return (
@@ -55,10 +54,26 @@ Support smarter</h1>
     </Box>
     <Box fontSize="38px" fontWeight="bold" marginTop="50px">
     Single Solution for All Your Activities
-    <Box fontSize="20px" color="#b0b6c8" fontWeight="lighter" marginTop="50px">Identify new opportunities, convert visitors, deliver customer happiness, and more!</Box>
+    <Box fontSize="20px" color="#b0b6c8" fontWeight="lighter" marginTop="30px">Identify new opportunities, convert visitors, deliver customer happiness, and more!</Box>
     </Box>
-    <Box>
 
+    <Box width="1285px" height="990px" margin="auto" marginTop="30px">
+    <SimpleGrid columns={2} spacing='20px'>
+    <Box bg='tomato' height='489px' width="636px" borderRadius="10px">
+        <Box border="solid black" borderRight="none" borderTop="none" borderLeft="none" width="554PX" height="157px" margin="auto" marginTop="60px"  display="flex" justifyContent="space-between">
+            <Box className="detailsdiv">
+            <h1>CRM Software</h1>
+            <p>Store unlimited contacts and build stronger<br/> relationships by keeping track of all your customer<br/>details in one place</p>
+            </Box >
+            <Box marginLeft="px" marginTop="20px">
+                <Image src="https://cdn5.engagebay.com/new/assets/img/icons/crm.svg" width="125px" height="125px"/>
+            </Box>
+        </Box>
+        </Box>
+    <Box bg='tomato' height='489px' width="636px" borderRadius="10px"></Box>
+    <Box bg='tomato' height='489px' width="636px" borderRadius="10px"></Box>
+    <Box bg='tomato' height='489px' width="636px" borderRadius="10px"></Box>
+   </SimpleGrid>
     </Box>
     </>
     )

@@ -1,5 +1,6 @@
-import { Box, Button, TagRightIcon } from "@chakra-ui/react"
+import { Box, Button } from "@chakra-ui/react"
 import { Link } from "react-router-dom"
+
 
 function Navbar(){
     return(

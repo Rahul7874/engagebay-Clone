@@ -1,6 +1,11 @@
-
+import Navbar from "./Navbar";
 
 function Resources(){
-    return <h1>Resources</h1>
+    return(
+        <>
+        <Navbar/>
+         <h1>Resources</h1>
+         </>
+    )
 }
 export default Resources;
